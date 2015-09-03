@@ -156,7 +156,7 @@
 		transition: color 0.2s ease, border-color 0.2s ease;
 		color: inherit;
 		letter-spacing: 0.2em;
-		text-decoration: none;
+		text-decoration: underline;
 		text-transform: uppercase;
 	}
 
@@ -700,6 +700,18 @@
 
 /* Main */
 
+	.about {
+		border-top: 1px solid #cccccc;
+		margin-top: 2em;
+		padding-top: 1em;
+	}
+
+	.about a {
+		letter-spacing: 0;
+		text-decoration: underline;
+		text-transform: none;
+	}
+
 	#main {
 		background: #ffffff;
 		border-radius: 4px;
@@ -776,6 +788,7 @@
 		border-radius: 6px;
 		display: inline-block;
 		padding: 0.75em;
+		text-decoration: none;
 	}
 
 		.register a:hover {
